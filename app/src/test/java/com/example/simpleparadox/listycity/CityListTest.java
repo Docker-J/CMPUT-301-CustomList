@@ -59,22 +59,22 @@ class CityListTest {
         assertFalse(cityList.hasCity(newCity));
     }
 
-//    @Test
-//    void testDeleteCity() {
-//        CityList cityList = mockCityList();
-//
-//        City city = cityList.getCities().get(0);
-//        int before = cityList.getCities().size();
-//
-//        cityList.delete(city);
-//        assertThrows(IllegalArgumentException.class, () -> {
-//            cityList.delete(city);
-//        });
-//
-//        int after = cityList.getCities().size();
-//        assertTrue(before > after);
-//    }
-//
+    @Test
+    void testDeleteCity() {
+        CityList cityList = mockCityList();
+
+        City city = cityList.getCities().get(0);
+        int before = cityList.getCities().size();
+
+        cityList.delete(city);
+        assertThrows(IllegalArgumentException.class, () -> {
+            cityList.delete(city);
+        });
+
+        int after = cityList.getCities().size();
+        assertTrue(before > after);
+    }
+
 //    @Test
 //    void testCountCities() {
 //        CityList cityList = mockCityList();
