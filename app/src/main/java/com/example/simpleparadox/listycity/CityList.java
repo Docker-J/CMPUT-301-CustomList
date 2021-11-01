@@ -52,12 +52,12 @@ public class CityList {
         cities.remove(city);
     }
 
-//    /**
-//     * This counts how many cities are in the list.
-//     *
-//     * @return Return the size of the city list
-//     */
-//    public int countCities() {
-//        return this.cities.size();
-//    }
+    /**
+     * This counts how many cities are in the list.
+     *
+     * @return Return the size of the city list
+     */
+    public int countCities() {
+        return this.cities.size();
+    }
 }
