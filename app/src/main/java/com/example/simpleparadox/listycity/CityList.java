@@ -30,16 +30,16 @@ public class CityList {
         return list;
     }
 
-//    /**
-//     * This checks the given city in the list or not
-//     *
-//     * @param city This is a candidate city to check
-//     * @return Return true or false
-//     */
-//    public boolean hasCity(City city) {
-//        return cities.contains(city);
-//    }
-//
+    /**
+     * This checks the given city in the list or not
+     *
+     * @param city This is a candidate city to check
+     * @return Return true or false
+     */
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
 //    /**
 //     * This removes the given city from the list if it is in there
 //     *
