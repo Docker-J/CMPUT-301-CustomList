@@ -40,18 +40,18 @@ public class CityList {
         return cities.contains(city);
     }
 
-//    /**
-//     * This removes the given city from the list if it is in there
-//     *
-//     * @param city This is a candidate city to delete
-//     */
-//    public void delete(City city) {
-//        if (!cities.contains(city)) {
-//            throw new IllegalArgumentException();
-//        }
-//        cities.remove(city);
-//    }
-//
+    /**
+     * This removes the given city from the list if it is in there
+     *
+     * @param city This is a candidate city to delete
+     */
+    public void delete(City city) {
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
+    }
+
 //    /**
 //     * This counts how many cities are in the list.
 //     *
