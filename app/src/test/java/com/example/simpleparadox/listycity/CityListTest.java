@@ -75,11 +75,11 @@ class CityListTest {
         assertTrue(before > after);
     }
 
-//    @Test
-//    void testCountCities() {
-//        CityList cityList = mockCityList();
-//        assertEquals(cityList.countCities(), cityList.getCities().size());
-//    }
+    @Test
+    void testCountCities() {
+        CityList cityList = mockCityList();
+        assertEquals(cityList.countCities(), cityList.getCities().size());
+    }
 
 
 }
